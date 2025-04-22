@@ -1,11 +1,8 @@
-# SemFundoPro (GPU compatível)
+# SemFundoPro (sem onnx - fallback definitivo)
 
-Versão usando onnxruntime-gpu 1.14.1 — 100% compatível com Python 3.11+ e ambiente do Render.
+API para remoção de fundo com rembg (sem onnxruntime), compatível com Render Free Tier (Python 3.11+).
 
-## Deploy no Render
-
-- Build Command: pip install -r requirements.txt
-- Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
-- Porta: dinâmica com variável $PORT
-
-URL da API: https://<nomedoseuservico>.onrender.com/remover-fundo/
+### Deploy no Render:
+- Build: pip install -r requirements.txt
+- Start: uvicorn main:app --host 0.0.0.0 --port $PORT
+- Endpoint: /remover-fundo/

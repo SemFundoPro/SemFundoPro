@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-rembg
-onnxruntime-gpu==1.14.1
+rembg==2.0.54
+pymatting
 python-multipart
