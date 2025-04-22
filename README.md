@@ -1,6 +1,6 @@
-# SemFundoPro
+# SemFundoPro (versão leve)
 
-API para remoção de fundos de imagem utilizando FastAPI + rembg.
+API para remoção de fundos de imagem utilizando FastAPI + rembg + onnxruntime-light.
 
 ## Como usar no Render
 
@@ -9,6 +9,6 @@ API para remoção de fundos de imagem utilizando FastAPI + rembg.
 3. Use estas configurações:
 
 - Build Command: pip install -r requirements.txt
-- Start Command: uvicorn main:app --host 0.0.0.0 --port 10000
+- Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 
 A API estará acessível em: https://<nomedoseuservico>.onrender.com/remover-fundo/
