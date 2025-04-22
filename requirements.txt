@@ -1,5 +1,5 @@
 fastapi
 uvicorn
 rembg
-onnxruntime-light
+onnxruntime==1.14.1
 python-multipart

@@ -1,6 +1,6 @@
-# SemFundoPro (versão leve)
+# SemFundoPro (versão compatível)
 
-API para remoção de fundos de imagem utilizando FastAPI + rembg + onnxruntime-light.
+API para remoção de fundos de imagem utilizando FastAPI + rembg + onnxruntime 1.14.1 (compatível com Render Free Tier).
 
 ## Como usar no Render
 
