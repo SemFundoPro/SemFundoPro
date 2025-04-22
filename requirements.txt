@@ -1,5 +1,4 @@
 fastapi
 uvicorn
-rembg
-onnxruntime==1.14.1
+rembg-no-numpy
 python-multipart
